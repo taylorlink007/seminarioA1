@@ -1,0 +1,91 @@
+<!-- login.component.html -->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="card shadow-lg border-0 rounded-lg">
+        <div class="card-header bg-primary text-white text-center">
+          <h3 class="my-2">Iniciar Sesión</h3>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="login()">
+            <div class="mb-3">
+              <label for="username" class="form-label">
+                <i class="bi bi-person-fill me-2"></i>Usuario
+              </label>
+              <div class="input-group">
+                <span class="input-group-text"
+                  ><i class="bi bi-person"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  [(ngModel)]="username"
+                  name="username"
+                  placeholder="Ingresa tu usuario"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">
+                <i class="bi bi-lock-fill me-2"></i>Contraseña
+              </label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  [(ngModel)]="password"
+                  name="password"
+                  placeholder="Introduce tu contraseña"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3 d-flex justify-content-end">
+              <a href="#" class="text-primary text-decoration-none small">
+                ¿Olvidaste tu contraseña?
+              </a>
+            </div>
+
+            <div class="d-grid">
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg"
+                [disabled]="!username || !password"
+              >
+                Conectarse
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="card-footer text-center py-3">
+          <div class="small">
+            ¿No tienes cuenta?
+            <a href="#" class="text-primary">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Estilos adicionales-->
+<style>
+  .card {
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  .input-group-text {
+    background-color: #f8f9fa;
+  }
+</style>

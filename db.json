@@ -1,0 +1,38 @@
+{
+  "encuestas": [
+    {
+      "id": "1ef8e6e7-62a0-43ab-8036-b4e28306526c",
+      "nombre": "fdsfsdgsdfg",
+      "descripcion": "fdgearghearghe"
+    },
+        {
+      "id": "1ef8e7e7-62a0-43ab-8036-b4e28406526c",
+      "nombre": "fdsfsdgsdfg",
+      "descripcion": "fdgearghearghe"
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "c0add09c-d7bd-4256-9519-a5e8c1248779",
+      "nombre": "hfghsrtjhrtshaet",
+      "descripcion": "hrthathaeth"
+    },
+        {
+      "id": "c0add89c-d7bd-4256-9519-a5e8c1248779",
+      "nombre": "hfghsrtjhrtshaet",
+      "descripcion": "hrthathaeth"
+    }
+  ],
+  "tipo-pregunta": [
+    {
+      "id": "9cc85e74-70be-4172-824f-db33d3543b15",
+      "nombre": "Cuantitativa",
+      "descripcion": "Informa una cualidad del estudiante para hacer cálculos estadísticos y medidas de tendencia central."
+    },
+    {
+            "id": "9cc85e74-70be-4172-824f-db33d3543b15",
+      "nombre": "Cuantitativa",
+      "descripcion": "Informa una cualidad del estudiante para hacer cálculos estadísticos y medidas de tendencia central."
+    }
+  ]
+}
