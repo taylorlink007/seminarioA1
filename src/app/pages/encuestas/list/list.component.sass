@@ -1,73 +1,123 @@
+// Variables de colores
+$primary-color: #4a90e2
+$success-color: #5cb85c
+$danger-color: #d9534f
+$secondary-color: #6c757d
+$background-color: #f9f9f9
+$border-color: #ddd
+
+// Estilos base
+body
+  font-family: 'Arial, sans-serif'
+  background-color: $background-color
+  margin: 0
+  padding: 0
+
+// Contenedor principal
 .container
-  max-width: 1200px
-  margin: 0 auto
+  background-color: #fff
+  padding: 2rem
+  margin: 2rem auto
+  border-radius: 10px
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+  max-width: 900px
 
-.header
-  display: flex
-  justify-content: space-between
-  align-items: center
-  margin-bottom: 2rem
+  h1
+    text-align: center
+    color: $primary-color
+    margin-bottom: 1.5rem
 
-  h2
-    color: #2d3748
-    margin: 0
+  // Botones de acción
+  .d-flex
+    margin-bottom: 1rem
 
-.card
-  background: white
-  border-radius: 8px
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-  overflow: hidden
+    .btn
+      font-size: 1rem
+      padding: 0.5rem 1rem
+      border-radius: 5px
+      transition: background-color 0.3s, transform 0.2s
 
-.table
-  width: 100%
-  border-collapse: collapse
+      &:hover
+        transform: translateY(-2px)
 
-  th
-    background: #f8fafc
+    .btn-success
+      background-color: $success-color
+      border-color: darken($success-color, 10%)
+
+      &:hover
+        background-color: darken($success-color, 5%)
+
+    .btn-secondary
+      background-color: $secondary-color
+      border-color: darken($secondary-color, 10%)
+
+      &:hover
+        background-color: darken($secondary-color, 5%)
+
+  // Tabla de preguntas
+  table
+    width: 100%
+    border-collapse: collapse
+    background-color: #fff
+    border: 1px solid $border-color
+    border-radius: 10px
+    overflow: hidden
+
+    thead
+      background-color: $primary-color
+      color: #fff
+
+      th
+        padding: 1rem
+        text-align: center
+        font-weight: 600
+
+    tbody
+      tr
+        border-bottom: 1px solid $border-color
+        transition: background-color 0.2s
+
+        &:nth-child(even)
+          background-color: #f5f5f5
+
+        &:hover
+          background-color: lighten($primary-color, 40%)
+
+        td
+          padding: 1rem
+          text-align: center
+          color: #333
+
+        // Botones de acción en la tabla
+        .btn
+          margin: 0 0.2rem
+
+        .btn-primary
+          background-color: $primary-color
+          border-color: darken($primary-color, 10%)
+
+          &:hover
+            background-color: darken($primary-color, 5%)
+
+        .btn-danger
+          background-color: $danger-color
+          border-color: darken($danger-color, 10%)
+
+          &:hover
+            background-color: darken($danger-color, 5%)
+
+// Responsividad
+@media (max-width: 768px)
+  .container
     padding: 1rem
-    text-align: left
-    font-weight: 600
-    color: #4a5568
-    border-bottom: 2px solid #e2e8f0
 
-  td
-    padding: 1rem
-    border-bottom: 1px solid #e2e8f0
-    color: #4a5568
+    table
+      font-size: 0.9rem
 
-.btn-primary
-  background: #4299e1
-  color: white
-  border: none
-  padding: 0.75rem 1.5rem
-  border-radius: 6px
-  font-weight: 600
-  display: flex
-  align-items: center
-  gap: 0.5rem
-  cursor: pointer
-  transition: background-color 0.2s
+    .d-flex
+      flex-direction: column
+      align-items: center
 
-  &:hover
-    background: #3182ce
-
-.actions
-  display: flex
-  gap: 0.5rem
-
-.btn-icon
-  background: none
-  border: none
-  padding: 0.5rem
-  cursor: pointer
-  color: #4a5568
-  border-radius: 4px
-  transition: all 0.2s
-
-  &:hover
-    background: #edf2f7
-    color: #2b6cb0
-
-  &.delete:hover
-    background: #fed7d7
-    color: #c53030
+      .btn
+        width: 100%
+        margin-bottom: 0.5rem

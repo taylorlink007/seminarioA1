@@ -1,14 +1,14 @@
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PreguntasService {
-  private baseUrl = 'http://localhost:3000/preguntas';
-  constructor(private http: HttpClient) {
-   
+  private readonly baseUrl = 'http://localhost:3000/preguntas';
+  constructor(private readonly http: HttpClient) {
+
    }
     getPreguntas() {
       return this.http.get('http://localhost:3000/preguntas');
@@ -17,16 +17,16 @@ export class PreguntasService {
   getById(id: any){
   return this.http.get(`http://localhost:3000/preguntas/${id}`);
   }
-  
+
   postPreguntas(Preguntas: any){
-  
+
   return this.http.post('http://localhost:3000/preguntas', Preguntas);
   }
   deletePreguntas(id: any){
   return this.http.delete(`http://localhost:3000/preguntas/${id}`);
-  
+
   }
-  
+
   update(id: string, data: any): Observable<any> {
   return this.http.put(`${this.baseUrl}/${id}`, data);
   }
