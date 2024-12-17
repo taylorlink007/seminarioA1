@@ -10,18 +10,48 @@
       "nombre": "jjdjd",
       "descripcion": "dsdsda",
       "acciones": "asddsdd"
+    },
+    {
+      "id": "a872ff65-c287-4bce-a12b-36b41bffcec1",
+      "nombre": "Evaluación Docente",
+      "descripcion": "Estas encuestas buscan evaluar la calidad de la enseñanza, los métodos utilizados, la claridad de los contenidos y la interacción con los estudiantes."
+    },
+    {
+      "id": "494de40c-7183-4d29-a2c4-23b135549369",
+      "nombre": "Encuestas de Investigación:",
+      "descripcion": "Se utilizan para recopilar datos para investigaciones académicas en diversas áreas del conocimiento."
+    },
+    {
+      "id": "7b8a6128-81ff-4429-937a-41cf5d676899",
+      "nombre": "Evaluar Programas y Proyectos",
+      "descripcion": "Se utilizan para evaluar la efectividad de programas académicos, proyectos de investigación o iniciativas de extensión universitaria."
     }
   ],
   "preguntas": [
     {
       "id": "c0add09c-d7bd-4256-9519-a5e8c1248779",
-      "nombre": "bend10",
-      "descripcion": "hrthathaeth"
+      "nombre": "Evaluación",
+      "descripcion": "¿Las evaluaciones reflejan adecuadamente el aprendizaje adquirido?"
     },
     {
       "id": "e3620e3e-cf5a-48fe-80ec-8f809cdd9eaa",
-      "nombre": "messi",
-      "descripcion": "ronaldo"
+      "nombre": "Bibliotecas",
+      "descripcion": "¿Cuenta la biblioteca con los recursos necesarios para sus estudios?"
+    },
+    {
+      "id": "e06b9b7a-5be6-42f6-8f93-cdb3caaf463e",
+      "nombre": "Investigación",
+      "descripcion": "¿Ha tenido la oportunidad de participar en proyectos de investigación?"
+    },
+    {
+      "id": "53ea7124-cdef-467a-9f56-d409af609607",
+      "nombre": "Satisfacción general:",
+      "descripcion": "¿En general, está satisfecho con su experiencia universitaria?"
+    },
+    {
+      "id": "4338f97d-4d26-49c5-a042-979565538599",
+      "nombre": "Sugerencias",
+      "descripcion": "¿Qué nuevas iniciativas te gustaría ver implementadas?"
     }
   ],
   "tipo-pregunta": [
@@ -34,6 +64,21 @@
       "id": "9cc85e74-70be-4172-824f-db33d3543b15",
       "nombre": "Cuantitativa",
       "descripcion": "Informa una cualidad del estudiante para hacer cálculos estadísticos y medidas de tendencia central."
+    },
+    {
+      "id": "aaa4a90b-80b3-4abb-81f6-5f51dc6e7c3e",
+      "nombre": "Preguntas sobre satisfacción",
+      "descripcion": "Nivel de satisfacción con diferentes aspectos de la vida universitaria."
+    },
+    {
+      "id": "f75eef0e-3855-490b-aa0d-5337a78dbd76",
+      "nombre": "Preguntas sobre percepción",
+      "descripcion": "Percepción sobre la calidad de la enseñanza, los recursos disponibles, el clima académico, etc."
+    },
+    {
+      "id": "98259626-c253-43a3-99f6-de69a623c86c",
+      "nombre": "Preguntas abiertas",
+      "descripcion": "Para que los encuestados expresen sus opiniones y sugerencias."
     }
   ]
 }
