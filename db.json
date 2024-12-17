@@ -1,26 +1,27 @@
 {
   "encuestas": [
     {
-      "id": "1ef8e6e7-62a0-43ab-8036-b4e28306526c",
-      "nombre": "fdsfsdgsdfg",
-      "descripcion": "fdgearghearghe"
-    },
-        {
       "id": "1ef8e7e7-62a0-43ab-8036-b4e28406526c",
       "nombre": "fdsfsdgsdfg",
-      "descripcion": "fdgearghearghe"
+      "descripcion": "145457"
+    },
+    {
+      "id": "ff1f14ed-4ce3-413d-bdf1-8ffa44d903b5",
+      "nombre": "jjdjd",
+      "descripcion": "dsdsda",
+      "acciones": "asddsdd"
     }
   ],
   "preguntas": [
     {
       "id": "c0add09c-d7bd-4256-9519-a5e8c1248779",
-      "nombre": "hfghsrtjhrtshaet",
+      "nombre": "bend10",
       "descripcion": "hrthathaeth"
     },
-        {
-      "id": "c0add89c-d7bd-4256-9519-a5e8c1248779",
-      "nombre": "hfghsrtjhrtshaet",
-      "descripcion": "hrthathaeth"
+    {
+      "id": "e3620e3e-cf5a-48fe-80ec-8f809cdd9eaa",
+      "nombre": "messi",
+      "descripcion": "ronaldo"
     }
   ],
   "tipo-pregunta": [
@@ -30,7 +31,7 @@
       "descripcion": "Informa una cualidad del estudiante para hacer cálculos estadísticos y medidas de tendencia central."
     },
     {
-            "id": "9cc85e74-70be-4172-824f-db33d3543b15",
+      "id": "9cc85e74-70be-4172-824f-db33d3543b15",
       "nombre": "Cuantitativa",
       "descripcion": "Informa una cualidad del estudiante para hacer cálculos estadísticos y medidas de tendencia central."
     }
