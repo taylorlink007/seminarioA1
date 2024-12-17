@@ -79,7 +79,9 @@ Ejecute los siguientes comandos en dos terminales diferentes:
 
 ### Autores
 -Freddy Jair Mondragón
+
 -Juan Carlos Sinisterra
+
 -Taylor Quiñones Caicedo
 
 ### Licencia
