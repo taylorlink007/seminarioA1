@@ -78,9 +78,9 @@ Ejecute los siguientes comandos en dos terminales diferentes:
    ```
 
 ### Autores
-- Taylor Quiñones
-- Juan 
-- Fredy
+-Freddy Jair Mondragón
+-Juan Carlos Sinisterra
+-Taylor Quiñones Caicedo
 
 ### Licencia
 Este proyecto está bajo la licencia GNU General Public License v3.0. Consulte el archivo LICENSE para más detalles.
