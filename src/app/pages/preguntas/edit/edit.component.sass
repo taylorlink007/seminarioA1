@@ -1,0 +1,59 @@
+
+body
+  margin: 0
+  padding: 0
+  overflow: hidden /* Evita el scroll si no se necesita */
+
+
+.background-img
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  object-fit: cover /* Asegura que la imagen cubra todo el fondo */
+  z-index: -1 /* Coloca la imagen detrás del contenido */
+
+.container
+  background-color: #ffffff // Fondo blanco para el container
+  padding: 20px            // Espaciado interno
+  border-radius: 8px        // Bordes redondeados
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1) // Sombra sutil para resaltar el contenedor
+  max-width: 900px         // Ancho máximo del container
+  margin: 30px auto        // Centrado horizontal y margen superior e inferior
+
+  h1
+    color: #0077cc          // Azul más intenso para el título
+    margin-bottom: 20px     // Espacio debajo del título
+
+
+  table
+    background-color: #f9f9f9 // Fondo gris claro para la tabla
+    th
+      background-color: #0077cc // Azul más intenso para encabezados de tabla
+      color: white              // Texto blanco en los encabezados
+
+    td
+      background-color: #ffffff // Fondo blanco para celdas de tabla
+
+
+
+
+// Botones personalizados
+.btn-primary
+  background-color: #0077cc
+  border-color: #005fa3
+
+  &:hover
+    background-color: #005fa3
+
+
+
+.btn-danger
+  background-color: #cc0000
+  border-color: #a30000
+
+  &:hover
+    background-color: #a30000
+
+
